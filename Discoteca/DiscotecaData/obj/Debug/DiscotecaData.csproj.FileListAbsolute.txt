@@ -1,0 +1,6 @@
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaData\bin\Debug\DiscotecaData.dll
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaData\bin\Debug\DiscotecaData.pdb
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaData\obj\Debug\DiscotecaData.csprojAssemblyReference.cache
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaData\obj\Debug\DiscotecaData.csproj.CoreCompileInputs.cache
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaData\obj\Debug\DiscotecaData.dll
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaData\obj\Debug\DiscotecaData.pdb

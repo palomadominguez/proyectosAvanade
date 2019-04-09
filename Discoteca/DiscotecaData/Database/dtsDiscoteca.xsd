@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtsDiscoteca" targetNamespace="http://tempuri.org/dtsDiscoteca.xsd" xmlns:mstns="http://tempuri.org/dtsDiscoteca.xsd" xmlns="http://tempuri.org/dtsDiscoteca.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtsDiscoteca" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsDiscoteca" msprop:Generator_UserDSName="dtsDiscoteca">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Cantante" msprop:Generator_TableClassName="CantanteDataTable" msprop:Generator_TableVarName="tableCantante" msprop:Generator_RowChangedName="CantanteRowChanged" msprop:Generator_TablePropName="Cantante" msprop:Generator_RowDeletingName="CantanteRowDeleting" msprop:Generator_RowChangingName="CantanteRowChanging" msprop:Generator_RowEvHandlerName="CantanteRowChangeEventHandler" msprop:Generator_RowDeletedName="CantanteRowDeleted" msprop:Generator_RowClassName="CantanteRow" msprop:Generator_UserTableName="Cantante" msprop:Generator_RowEvArgName="CantanteRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idCantante" msprop:Generator_ColumnVarNameInTable="columnidCantante" msprop:Generator_ColumnPropNameInRow="idCantante" msprop:Generator_ColumnPropNameInTable="idCantanteColumn" msprop:Generator_UserColumnName="idCantante" type="xs:string" minOccurs="0" />
+              <xs:element name="NombreCantante" msprop:Generator_ColumnVarNameInTable="columnNombreCantante" msprop:Generator_ColumnPropNameInRow="NombreCantante" msprop:Generator_ColumnPropNameInTable="NombreCantanteColumn" msprop:Generator_UserColumnName="NombreCantante" type="xs:string" minOccurs="0" />
+              <xs:element name="Nacionalidad" msprop:Generator_ColumnVarNameInTable="columnNacionalidad" msprop:Generator_ColumnPropNameInRow="Nacionalidad" msprop:Generator_ColumnPropNameInTable="NacionalidadColumn" msprop:Generator_UserColumnName="Nacionalidad" type="xs:string" minOccurs="0" />
+              <xs:element name="Discos" msprop:Generator_ColumnVarNameInTable="columnDiscos" msprop:Generator_ColumnPropNameInRow="Discos" msprop:Generator_ColumnPropNameInTable="DiscosColumn" msprop:Generator_UserColumnName="Discos" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Disco" msprop:Generator_TableClassName="DiscoDataTable" msprop:Generator_TableVarName="tableDisco" msprop:Generator_RowChangedName="DiscoRowChanged" msprop:Generator_TablePropName="Disco" msprop:Generator_RowDeletingName="DiscoRowDeleting" msprop:Generator_RowChangingName="DiscoRowChanging" msprop:Generator_RowEvHandlerName="DiscoRowChangeEventHandler" msprop:Generator_RowDeletedName="DiscoRowDeleted" msprop:Generator_RowClassName="DiscoRow" msprop:Generator_UserTableName="Disco" msprop:Generator_RowEvArgName="DiscoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cantante" msprop:Generator_ColumnVarNameInTable="columnCantante" msprop:Generator_ColumnPropNameInRow="Cantante" msprop:Generator_ColumnPropNameInTable="CantanteColumn" msprop:Generator_UserColumnName="Cantante" type="xs:string" minOccurs="0" />
+              <xs:element name="Estilo" msprop:Generator_ColumnVarNameInTable="columnEstilo" msprop:Generator_ColumnPropNameInRow="Estilo" msprop:Generator_ColumnPropNameInTable="EstiloColumn" msprop:Generator_UserColumnName="Estilo" type="xs:string" minOccurs="0" />
+              <xs:element name="Discografica" msprop:Generator_ColumnVarNameInTable="columnDiscografica" msprop:Generator_ColumnPropNameInRow="Discografica" msprop:Generator_ColumnPropNameInTable="DiscograficaColumn" msprop:Generator_UserColumnName="Discografica" type="xs:string" minOccurs="0" />
+              <xs:element name="Publicacion" msprop:Generator_ColumnVarNameInTable="columnPublicacion" msprop:Generator_ColumnPropNameInRow="Publicacion" msprop:Generator_ColumnPropNameInTable="PublicacionColumn" msprop:Generator_UserColumnName="Publicacion" type="xs:string" minOccurs="0" />
+              <xs:element name="Titulo" msprop:Generator_ColumnVarNameInTable="columnTitulo" msprop:Generator_ColumnPropNameInRow="Titulo" msprop:Generator_ColumnPropNameInTable="TituloColumn" msprop:Generator_UserColumnName="Titulo" type="xs:string" minOccurs="0" />
+              <xs:element name="Pistas" msprop:Generator_ColumnVarNameInTable="columnPistas" msprop:Generator_ColumnPropNameInRow="Pistas" msprop:Generator_ColumnPropNameInTable="PistasColumn" msprop:Generator_UserColumnName="Pistas" type="xs:string" minOccurs="0" />
+              <xs:element name="idDisco" msprop:Generator_ColumnVarNameInTable="columnidDisco" msprop:Generator_ColumnPropNameInRow="idDisco" msprop:Generator_ColumnPropNameInTable="idDiscoColumn" msprop:Generator_UserColumnName="idDisco" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pista" msprop:Generator_TableClassName="PistaDataTable" msprop:Generator_TableVarName="tablePista" msprop:Generator_RowChangedName="PistaRowChanged" msprop:Generator_TablePropName="Pista" msprop:Generator_RowDeletingName="PistaRowDeleting" msprop:Generator_RowChangingName="PistaRowChanging" msprop:Generator_RowEvHandlerName="PistaRowChangeEventHandler" msprop:Generator_RowDeletedName="PistaRowDeleted" msprop:Generator_RowClassName="PistaRow" msprop:Generator_UserTableName="Pista" msprop:Generator_RowEvArgName="PistaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idPista" msprop:Generator_ColumnVarNameInTable="columnidPista" msprop:Generator_ColumnPropNameInRow="idPista" msprop:Generator_ColumnPropNameInTable="idPistaColumn" msprop:Generator_UserColumnName="idPista" type="xs:string" minOccurs="0" />
+              <xs:element name="Titulo" msprop:Generator_ColumnVarNameInTable="columnTitulo" msprop:Generator_ColumnPropNameInRow="Titulo" msprop:Generator_ColumnPropNameInTable="TituloColumn" msprop:Generator_UserColumnName="Titulo" type="xs:string" minOccurs="0" />
+              <xs:element name="Duracion" msprop:Generator_ColumnVarNameInTable="columnDuracion" msprop:Generator_ColumnPropNameInRow="Duracion" msprop:Generator_ColumnPropNameInTable="DuracionColumn" msprop:Generator_UserColumnName="Duracion" type="xs:string" minOccurs="0" />
+              <xs:element name="Disco" msprop:Generator_ColumnVarNameInTable="columnDisco" msprop:Generator_ColumnPropNameInRow="Disco" msprop:Generator_ColumnPropNameInTable="DiscoColumn" msprop:Generator_UserColumnName="Disco" type="xs:string" minOccurs="0" />
+              <xs:element name="Videoclip" msprop:Generator_ColumnVarNameInTable="columnVideoclip" msprop:Generator_ColumnPropNameInRow="Videoclip" msprop:Generator_ColumnPropNameInTable="VideoclipColumn" msprop:Generator_UserColumnName="Videoclip" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Cantante_Disco" msdata:parent="Cantante" msdata:child="Disco" msdata:parentkey="Discos idCantante" msdata:childkey="idDisco Cantante" msprop:Generator_UserChildTable="Disco" msprop:Generator_ChildPropName="GetDiscoRows" msprop:Generator_UserRelationName="Cantante_Disco" msprop:Generator_ParentPropName="CantanteRowParent" msprop:Generator_RelationVarName="relationCantante_Disco" msprop:Generator_UserParentTable="Cantante" />
+      <msdata:Relationship name="Disco_Pista" msdata:parent="Disco" msdata:child="Pista" msdata:parentkey="Pistas idDisco" msdata:childkey="idPista Disco" msprop:Generator_UserChildTable="Pista" msprop:Generator_ChildPropName="GetPistaRows" msprop:Generator_UserRelationName="Disco_Pista" msprop:Generator_ParentPropName="DiscoRowParent" msprop:Generator_RelationVarName="relationDisco_Pista" msprop:Generator_UserParentTable="Disco" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

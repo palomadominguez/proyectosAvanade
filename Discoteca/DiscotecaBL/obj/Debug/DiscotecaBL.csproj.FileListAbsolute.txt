@@ -1,0 +1,9 @@
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaBL\bin\Debug\DiscotecaBL.dll
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaBL\bin\Debug\DiscotecaBL.pdb
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaBL\bin\Debug\DiscotecaData.dll
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaBL\bin\Debug\DiscotecaData.pdb
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaBL\obj\Debug\DiscotecaBL.csprojAssemblyReference.cache
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaBL\obj\Debug\DiscotecaBL.csproj.CoreCompileInputs.cache
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaBL\obj\Debug\DiscotecaBL.csproj.CopyComplete
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaBL\obj\Debug\DiscotecaBL.dll
+C:\Users\a.jurado.garrido\source\repos\Discoteca\DiscotecaBL\obj\Debug\DiscotecaBL.pdb
